@@ -1,0 +1,99 @@
+/* 
+**for older chorome browser 
+convert your css to this link
+
+http://pleeease.iamvdo.me/play/
+
+ */
+
+.section-padding{
+    padding: 50px 0;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h2 span{
+    color: #2fa55e;
+}
+body{
+    color: #787978;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333;
+}
+.single-pricing-box{
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;    
+}
+.single-pricing-box:hover{
+    background: rgb(230, 230, 230);
+    border: 1px solid #2fa55e;
+    box-shadow: 0 0 50px #f9f9f9;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.single-pricing-box h3{
+    text-transform: uppercase;
+}
+.pricing-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #2fa55e;
+}
+.pricing-icon img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+}
+.pricing-lists{
+    text-align: left;
+}
+.pricing-lists ul{
+    margin: 0;
+    padding: 0 0 0 16px;
+    list-style: outside none none;
+    line-height: 25px;
+}
+
+.pricing-lists ul li:before{
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #2fa55e;
+    padding-right: 10px;
+}
+.pricing-lists ul li.off:before{
+    content: "\f00d";
+    color: red;
+}
+.single-pricing-box h3.pricing-count{
+    margin-top: 20px;
+    text-transform: none;
+}
+a.ordered-btn{
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #2fa55e;
+    border-radius: 50px;
+    color: #2fa55e;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+a.ordered-btn:hover{
+    color: #fff;
+    background: #2fa55e;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.pricing-lists ul li{
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.pricing-lists ul li:hover{
+    padding-left: 10px;
+}
+
+
